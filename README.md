@@ -12,12 +12,15 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop:
 ![](desktop-preview.png)
+
+Mobile:
+![](mobile-preview.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://mark-ku-dev.github.io/four-card-feature-section/
 
 ## My process
 
@@ -40,17 +43,6 @@ Users should be able to:
 - **Consistent card width on mobile:** Cards had `max-width: 500px` but no `width`, so they sized to content and looked different. Adding `width: 100%` made each card fill its grid cell so they’re all the same width, still limited by `max-width` on wider viewports.
 
 - **Breakpoints:** The style guide lists mobile (375px) and desktop (1440px) design widths. Using a breakpoint like 1024px for the 3-column layout makes it appear at a comfortable “desktop” width while keeping mobile layout on smaller screens.
-
-### Continued development
-
-- Refining responsive breakpoints and spacing for very wide screens.
-- Improving accessibility (e.g. focus states, contrast) and semantic structure where needed.
-
-### Useful resources
-
-- [MDN CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) – Grid concepts and `grid-column` / `grid-row` placement.
-- [CSS-Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) – Flexbox for card content and page layout.
-- Project `style-guide.md` – Colors, typography, and layout widths.
 
 ### AI Collaboration
 
